@@ -1,0 +1,58 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-table{
+z-index: -2;
+/* width: 60rem; */
+/* background-color: rgb(219, 223, 230); */
+height: 100vh;
+}
+ Table{
+    z-index: 1;
+ }
+ .responsiveTable {
+    width: 86% !important;
+    margin-left: 4rem;
+  }
+
+@media(min-width:800px){
+    Th,Td{
+        width: 5rem;
+    }
+ .phoneno,.actions{
+    position: relative;
+    right:4rem;
+ }
+    .sno{
+        text-align: right;
+        padding: 0 30px;
+    }
+    .responsiveTable {
+        width: 75% !important;
+        transform: scale(1.12);
+      }
+    
+    .responsiveTable td.pivoted {
+        padding-left: 3px !important;
+      }
+    
+      .responsiveTable td .tdBefore {
+    
+        width: 0px !important;
+    
+      }
+}
+.pencil-link{
+    position: relative;
+}
+.pencil{
+    position: absolute;
+    right: 3px;
+    bottom:6px;
+    color: rgb(83, 83, 90);
+    height: 22px;
+    width: 22px;
+}
+

@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Sonu Dutta",
+      "username": "SonuDutta",
+      "email": "sonudutta123@gmail.com",
+      "phone": "9665593338",
+      "website": "https://dutta",
+      "id": 10
+    },
+    {
+      "name": "Anjana Dutta",
+      "username": "AnjanaDutta",
+      "email": "anjana@gmail.com",
+      "phone": "9049809113",
+      "website": "https://dutt",
+      "id": 11
+    },
+    {
+      "name": "skfhsh",
+      "username": "sskhhlhsk",
+      "email": "oupeolj@hsgj.fd",
+      "phone": "8946354758",
+      "website": "httpsjksb",
+      "id": 13
+    }
+  ]
+}
