@@ -16,16 +16,16 @@ function Users() {
   console.log(user);
   return (
     <>
-      <div className="h-full w-full flex flex-col mt-2 ms-5 justify-center items-center">
+      <div className="h-full w-full flex flex-col mt-2 ms-5 justify-center items-center ">
         <Link
           to={`/`}
-          className="hover:bg-teal-600 bg-white hover:shadow-md  outline-none rounded-xl font-bold border mt-3 hover:text-teal-200 text-teal-600 border-zinc-400 py-4 px-4 pl-4"
+          className="hover:bg-teal-600 bg-white hover:shadow-md  outline-none rounded-xl font-bold border mt-3 hover:text-teal-100 text-teal-600 border-zinc-400 py-4 px-4 pl-4"
         >
           Back To Home
         </Link>
         {user && (
-          <div className="w-[700px] h-[200] px-6 py-4 flex shadow-xl rounded-xl justify-center items-center bg-teal-600 mt-5 border-teal-800 border-2">
-            <div className="w-5/12 flex flex-col space-y-4">
+          <div className="w-[700px] h-[200] px-6 py-4 flex shadow-xl rounded-xl justify-center items-center bg-teal-600 mt-5 border-teal-800 border-2 view-main">
+            <div className="w-5/12 flex flex-col space-y-4 edit-title">
               <h2 className="text-white font-bold text-xl border-black border-b-2">
                 Name
               </h2>
@@ -42,20 +42,20 @@ function Users() {
               Website
               </h2>
             </div>
-            <div className="w-7/12 flex flex-col space-y-4  ">
-              <h2 className="text-teal-200 font-bold text-xl border-black border-b-2">
+            <div className="w-7/12 flex flex-col space-y-4  edit-data">
+              <h2 className="text-teal-100 font-bold text-xl border-black border-b-2">
                 {user.name}
               </h2>
-              <h2 className="text-teal-200 font-bold text-xl border-black border-b-2">
+              <h2 className="text-teal-100 font-bold text-xl border-black border-b-2">
                 {user.username}
               </h2>
-              <h2 className="text-teal-200 font-bold text-xl border-black border-b-2">
+              <h2 className="text-teal-100 font-bold text-xl border-black border-b-2">
                 {user.email}
               </h2>
-              <h2 className="text-teal-200 font-bold text-xl border-black border-b-2">
+              <h2 className="text-teal-100 font-bold text-xl border-black border-b-2">
                 {user.phone}
               </h2>
-              <h2 className="text-teal-200 font-bold text-xl border-black border-b-2">
+              <h2 className="text-teal-100 font-bold text-xl border-black border-b-2">
                 {user.website}
               </h2>
             </div>
