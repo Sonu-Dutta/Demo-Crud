@@ -28,3 +28,23 @@ input[type="text"], input:not([type="text"]) {
     width:70px !important;
     height:70px !important;
 }
+
+
+@media(max-width:820px){
+  .view-main{
+    width: 85% !important;
+    transform: scale(.9);
+  }
+}
+
+@media(min-width:820px){
+    .edit-title{
+      position: relative;
+        left: 4rem;
+        margin-right: 4rem;
+    }
+   
+    .edit-data{
+        margin-right: 4rem;
+    }
+}
