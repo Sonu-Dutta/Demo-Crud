@@ -66,11 +66,11 @@ const SideNavBar = () => {
             </li>
             <li className="nav-item">
               {isExpanded ? (
-                <NavLink className="nav-link navlink" to="/contact">
+                <NavLink className="nav-link navlink" to="/">
                   <EnvelopeFill className="icons-exp"/> <span> Messages </span>
                 </NavLink>
               ) : (
-                <Link className="nav-link ps-4 fs-4" to="/contact">
+                <Link className="nav-link ps-4 fs-4" to="/">
                   <EnvelopeFill classname="in-icon"/>
                 </Link>
               )}
