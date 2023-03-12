@@ -17,20 +17,20 @@ height: 100vh;
     margin-left: 4rem;
   }
 
-@media(min-width:800px){
+@media(min-width:821px){
     Th,Td{
         width: 5rem;
     }
  .phoneno,.actions{
     position: relative;
-    right:4rem;
+    right:6rem;
  }
     .sno{
         text-align: right;
         padding: 0 30px;
     }
     .responsiveTable {
-        width: 75% !important;
+        width: 95% !important;
         transform: scale(1.12);
       }
     
@@ -55,4 +55,3 @@ height: 100vh;
     height: 22px;
     width: 22px;
 }
-
