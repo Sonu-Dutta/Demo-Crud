@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { EnvelopeAt, Telephone, Globe, PersonCheck, Bookmark } from "react-bootstrap-icons";
 import './User.css'
-function Add() {
+function Edit() {
   const [name, setName] = useState("");
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
@@ -81,9 +81,9 @@ if (!/^http/.test(website)) {
   const isWebsiteEmpty = website.trim() === '';
 
   return (
-    <div className="w-screen h-full flex flex-col justify-center items-center mt-16">
+    <div className="w-screen h-full flex flex-col justify-center items-center mt-16 ">
       <h2 className="text-2xl font-bold">User Details</h2>
-      <form className="w-[50%] h-full flex flex-col mt-2">
+      <form className="w-[50%] h-full flex flex-col mt-2 ">
        <div className="form-group">
         <input
           value={name}
@@ -159,4 +159,4 @@ if (!/^http/.test(website)) {
   );
 }
 
-export default Add;
+export default Edit;
