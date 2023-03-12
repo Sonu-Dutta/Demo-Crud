@@ -42,7 +42,7 @@ function Home() {
 	</Thead>
 	<Tbody>
   {users.map((data, index) => (
-		<Tr  key={index} className="odd:bg-gray-100 even:bg-slate-200 hover:bg-sky-100 ">
+		<Tr  key={index} className=" hover:bg-gray-200">
       <Td className="sno">{index+1}</Td>
 			<Td >{data.name}</Td>
 			<Td style={{display:"none"}}>{data.username}</Td>
